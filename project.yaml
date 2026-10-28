@@ -32,3 +32,32 @@ project:
 modes:
   rigor: full
   automation: autonomous
+
+engine:
+  name: "Unity"
+  version: "6000.3.26f1"
+  language: "C#"
+  rendering: "URP"
+  physics: "PhysX"
+  path: "D:/Unity/Editor/6000.3.26f1/Editor/Unity.exe"   # not installed yet at pin time — install 6000.3.26f1 via Unity Hub here, or fix via /settings
+
+specialists:
+  code: "unity-specialist"
+  shader: "unity-shader-specialist"
+  ui: "unity-ui-specialist"
+  additional: ["unity-dots-specialist", "unity-addressables-specialist"]
+
+naming:
+  classes: PascalCase
+  variables: camelCase
+  constants: SCREAMING_SNAKE   # UNVERIFIED — not sourceable from
+                               # docs/engine-reference/unity/; confirm before relying on it
+  signals: PascalCase On<Event>
+  files: PascalCase
+  scenes: PascalCase
+
+commands:
+  build: '"D:/Unity/Editor/6000.3.26f1/Editor/Unity.exe" -batchmode -quit -projectPath . -buildTarget Win64 -buildWindows64Player Builds/Win64/SteelPlatoon.exe'
+  test: '"D:/Unity/Editor/6000.3.26f1/Editor/Unity.exe" -batchmode -runTests -projectPath . -testPlatform EditMode -testResults test-results/editmode.xml'
+  run: "Builds/Win64/SteelPlatoon.exe -screen-width 1280 -screen-height 720 -screen-fullscreen 0"
+  smoke: '"D:/Unity/Editor/6000.3.26f1/Editor/Unity.exe" -batchmode -quit -projectPath . -logFile -'

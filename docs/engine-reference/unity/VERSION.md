@@ -3,7 +3,7 @@
 | Field | Value |
 |-------|-------|
 | **Engine Version** | Unity 6.3 LTS |
-| **Installed at pin time** | NOT DETERMINED — `/setup-engine` §3 probes the installed editor and records the result here. |
+| **Installed at pin time** | MISMATCH (2026-10-28, reported by the user — not probed: the editor is on the user's Windows PC, not in this workspace). Installed: 6000.5.5f1 (Unity 6.5, end of life) and 6000.0.75f1 (Unity 6.0 LTS), both under `D:\Unity\Editor\`. Pinned 6000.3.26f1 is **not installed yet**; the user will install it via Unity Hub (expected at `D:/Unity/Editor/6000.3.26f1/`). |
 | **Release Date** | December 2025 |
 | **Latest editor on the pinned line** | 6000.3.26f1 (Oct 8, 2026) |
 | **Project Pinned** | 2026-02-13 |
