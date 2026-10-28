@@ -39,7 +39,7 @@ engine:
   language: "C#"
   rendering: "URP"
   physics: "PhysX"
-  path: "D:/Unity/Editor/6000.3.26f1/Editor/Unity.exe"   # not installed yet at pin time — install 6000.3.26f1 via Unity Hub here, or fix via /settings
+  path: "D:/Unity/Editor/6000.3.26f1/Editor/Unity.exe"   # installed (user-reported 2026-10-28); editor is on the Windows PC, not in the cloud workspace
 
 specialists:
   code: "unity-specialist"
