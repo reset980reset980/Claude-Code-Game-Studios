@@ -3,7 +3,7 @@
 | Field | Value |
 |-------|-------|
 | **Engine Version** | Unity 6.3 LTS |
-| **Installed at pin time** | NOT DETERMINED — `/setup-engine` §3 probes the installed editor and records the result here. |
+| **Installed at pin time** | MATCH — 6000.3.26f1 at `D:/Unity/Editor/6000.3.26f1/Editor/Unity.exe` (2026-10-28, reported by the user; not probed from this workspace). Corroborated by the committed project: `ProjectSettings/ProjectVersion.txt` reads `6000.3.26f1 (de8167e7440c)` (commit efd9979). 6.5 and 6.0 were uninstalled. History: at first pin (same day) 6000.5.5f1 and 6000.0.75f1 were installed and 6000.3.26f1 was not. |
 | **Release Date** | December 2025 |
 | **Latest editor on the pinned line** | 6000.3.26f1 (Oct 8, 2026) |
 | **Project Pinned** | 2026-02-13 |
